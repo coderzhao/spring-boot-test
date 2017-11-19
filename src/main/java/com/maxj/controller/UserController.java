@@ -19,7 +19,7 @@ public class UserController {
         if (user != null) {
             model.put("user", user);
         }
-        return "hello";
+        return "word";
     }
 
 }

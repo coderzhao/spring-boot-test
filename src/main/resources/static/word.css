@@ -1,0 +1,27 @@
+body {
+    width: 800px;
+    height: 100%;
+    margin: 20px;
+    background: #f3f3f3;
+}
+
+table {
+    font-family: "Kaiti SC";
+    font-size: 48px;
+    font-weight: bold;
+    /*padding: 10px;*/
+    border-collapse:collapse;
+}
+th,td {
+    width: 60px;
+    height: 60px;
+    border:1px solid black;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.slt {
+    background: yellow;
+    color: red;
+}
