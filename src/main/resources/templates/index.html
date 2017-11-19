@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
+    <link href="${ctx.contextPath}/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <script src="${ctx.contextPath}/vue.js"></script>
+    <script src="${ctx.contextPath}/jquery/jquery-3.2.0.min.js"></script>
+    <script src="${ctx.contextPath}/bootstrap/bootstrap.min.js"></script>
 </head>
 <body>
 这里是首页
+<div id="app">
+    <a class="btn btn-info" v-on:click="loadTestData">加载数据</a>
+    {{ message }}
+</div>
 </body>
+<link href="${ctx.contextPath}/css/index.css" rel="stylesheet">
+<script src="${ctx.contextPath}/js/index.js"></script>
 </html>

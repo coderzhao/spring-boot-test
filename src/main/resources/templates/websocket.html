@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="${ctx.contextPath}/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="${ctx.contextPath}/css/common.css" rel="stylesheet">
+    <!--<script src="${ctx.contextPath}/vue.js"></script>-->
+    <script src="${ctx.contextPath}/jquery/jquery-3.2.0.min.js"></script>
+    <script src="${ctx.contextPath}/bootstrap/bootstrap.min.js"></script>
+    <script src="${ctx.contextPath}/sockjs.min.js"></script>
+    <script src="${ctx.contextPath}/stomp.min.js"></script>
+    <script src="${ctx.contextPath}/js/websocket.js"></script>
+</head>
+<body>
+
+<div>
+    <button class="btn btn-default" type="submit" onclick="connect()">连接</button>
+    <button class="btn btn-default" onclick="disconnect()">断开连接</button>
+    <button class="btn btn-default" onclick="hello()">Hello</button>
+</div>
+<div id="response">
+
+</div>
+</body>
+</html>

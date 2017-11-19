@@ -10,4 +10,9 @@ public class PublicController {
     public String index() {
         return "index";
     }
+
+    @RequestMapping("/websocket")
+    public String websocket() {
+        return "websocket";
+    }
 }
